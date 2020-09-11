@@ -2,7 +2,6 @@
 import os
 from selen_module import *
 
-
 if __name__ == '__main__':
     with os.scandir("./photos") as entries:
         photos = []

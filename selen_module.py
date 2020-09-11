@@ -20,10 +20,10 @@ def boot():
     opts.add_argument("--window-size=1920,1080")
     #opts.set_headless(headless=True)
     opts.add_argument("--disable-gpu")
-    
+
     dv = webdriver.Chrome(chrome_options = opts, executable_path = r"./chromedriver.exe")
     dv.minimize_window()
-    
+
     return dv
 
 def boot_u(car):
